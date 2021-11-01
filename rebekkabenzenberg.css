@@ -20,7 +20,14 @@ svg text {
     color: #000;
 }
 
+svg.home {
+	display: none;
+}
+
 @media (orientation: landscape) {
+	svg.home.landscape {
+		display: inline;
+	}
 	svg text {
 		font-size: 60px;
 	}
@@ -36,14 +43,17 @@ svg text {
 }
   
 @media (orientation: portrait) {
+	svg.home.portrait {
+		display: inline;
+	}
 	svg text {
 		font-size: 92px;
 	}
 	.title {
-		transform: translate(85px, 55px)
+		transform: translate(85px, 115px)
 	}
 	.menu {
-		transform: translate(1475px, 55px);
+		transform: translate(1475px, 115px);
 	}
 	.close {
 		font-size: 25px;
