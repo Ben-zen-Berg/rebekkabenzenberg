@@ -24,6 +24,9 @@ svg text {
 	svg text {
 		font-size: 60px;
 	}
+	.title {
+		transform: translate(85px, 65px)
+	}
 	.menu {
 		transform: translate(1663px, 65px);
 	}
@@ -36,8 +39,11 @@ svg text {
 	svg text {
 		font-size: 92px;
 	}
+	.title {
+		transform: translate(85px, 55px)
+	}
 	.menu {
-		transform: translate(1475px, 65px);
+		transform: translate(1475px, 55px);
 	}
 	.close {
 		font-size: 25px;
